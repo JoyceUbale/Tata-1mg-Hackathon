@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 3
+    },
+    "auditLog": "/Users/joyceubale/Desktop/Tata 1 MG Hackathon/Tata-1mg-Hackathon/logs/error/.e2704a1fc41635c92650824f9af0b406eb4c3b91-audit.json",
+    "files": [
+        {
+            "date": 1743839649100,
+            "name": "/Users/joyceubale/Desktop/Tata 1 MG Hackathon/Tata-1mg-Hackathon/logs/error/2025-04-05.error.log",
+            "hash": "9801a147cf0b1eb3cb1d85c8d61a11b34ee8773759484d07646eda4dac219fb8"
+        }
+    ],
+    "hashType": "sha256"
+}

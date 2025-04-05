@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 3
+    },
+    "auditLog": "/Users/joyceubale/Desktop/Catalyst/tata_1_mg/logs/info/.87979acc40fa0d023972bbb924002bd435d9691f-audit.json",
+    "files": [
+        {
+            "date": 1743783829486,
+            "name": "/Users/joyceubale/Desktop/Catalyst/tata_1_mg/logs/info/2025-04-04.info.log",
+            "hash": "fc7f4f44a224ca4ea0aa77ea2aeb52e12a5db7a50e3beb85c377fcf2da12bbda"
+        },
+        {
+            "date": 1743823673600,
+            "name": "/Users/joyceubale/Desktop/Catalyst/tata_1_mg/logs/info/2025-04-05.info.log",
+            "hash": "e30f96be33921c45819345049c78ad70c798b03a8b1d720696939552efcd1bf6"
+        }
+    ],
+    "hashType": "sha256"
+}
