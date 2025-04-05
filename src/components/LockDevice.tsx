@@ -92,8 +92,8 @@ const LockDevice = ({ device, onToggle, className }: LockDeviceProps) => {
     if (cardRef.current) {
       gsap.to(cardRef.current, {
         boxShadow: isLocked 
-          ? '0 0 15px 0 rgba(16, 185, 129, 0.3)' 
-          : '0 0 15px 0 rgba(239, 68, 68, 0.3)',
+          ? '0 0 15px 0 rgba(16, 185, 129, 0.67)' 
+          : '0 0 15px 0 rgba(239, 68, 68, 0.52)',
         duration: 1,
         ease: 'power1.out'
       });

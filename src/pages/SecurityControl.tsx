@@ -98,10 +98,10 @@ const SecurityControl = () => {
           <CardContent className="space-y-4">
             <div 
               ref={statusRef}
-              className="border rounded-md p-6 transition-colors duration-300 text-center"
+              className="rounded-md p-6 transition-colors duration-300 text-center"
               style={{
-                backgroundColor: allLocked ? 'rgba(16, 185, 129, 0.1)' : 'rgba(239, 68, 68, 0.1)',
-                borderColor: allLocked ? 'rgba(16, 185, 129, 0.5)' : 'rgba(239, 68, 68, 0.5)',
+                backgroundColor: allLocked ? 'rgba(11, 194, 133, 0.43)' : 'rgba(239, 68, 68, 0.49)',
+                borderColor: allLocked ? 'rgba(16, 185, 129, 0.64)' : 'rgba(239, 68, 68, 0.6)',
               }}
             >
               <div className="flex flex-col items-center gap-4">
@@ -137,7 +137,7 @@ const SecurityControl = () => {
         </Card>
         
         {/* Lock Controls */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6">
           {locks.map(lock => (
             <LockDevice
               key={lock.id}

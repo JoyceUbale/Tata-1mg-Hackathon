@@ -117,7 +117,7 @@ const Dashboard = () => {
         <div className="rounded-full bg-green-100 dark:bg-green-900 w-14 h-14 flex items-center justify-center mx-auto mb-4 shadow-md group-hover:ring-4 group-hover:ring-green-400 dark:group-hover:ring-green-600 transition-all duration-300">
           <Lock size={28} className="text-green-600 dark:text-green-300" />
         </div>
-        <div className="text-4xl font-extrabold text-white-700 dark:text-green-300">{devicesByType.locks.length}</div>
+        <div className="text-4xl font-extrabold text--700 dark:text-green-300">{devicesByType.locks.length}</div>
         <div className="text-sm font-bold text-muted-foreground">Locks</div>
       </div>
     </div>
