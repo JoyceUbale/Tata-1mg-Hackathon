@@ -81,8 +81,24 @@ const Dashboard = () => {
   // Render Dashboard UI
   return (
     <MainLayout title="Smart Home Dashboard">
+<div className="bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl p-8 mb-8 text-white">
+  <h1 className="text-4xl font-bold mb-2">Welcome Home</h1>
+  <p className="text-xl opacity-90 mb-6">Your smart home is running efficiently today</p>
+  
+  <div className="flex flex-wrap gap-4">
+    <div className="bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2 flex items-center">
+      <div className="mr-2">⚡</div>
+      <span>39.4% Energy Savings</span>
+    </div>
+    <div className="bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2 flex items-center">
+      <div className="mr-2">⟳</div>
+      <span>Optimizing</span>
+    </div>
+  </div>
+</div>
+
       {/* Status Summary */}
-      <div ref={summaryRef} className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+      {/* <div ref={summaryRef} className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
         <DeviceCard 
           device={{
             id: 'summary-1',
@@ -151,7 +167,7 @@ const Dashboard = () => {
             </div>
           </div>
         </DeviceCard>
-      </div>
+      </div> */}
       
       {/* Device Stats */}
       <div className="mb-8">
