@@ -55,7 +55,7 @@ Unlike typical smart home dashboards, *SmartHome* focuses on *visual communicati
 ## 🌐 Deployed URL
 
 **Deployed Link**  
-
+[https://tata-1mg-hackathon-rh9p.vercel.app]
 
 ---
 
