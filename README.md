@@ -64,7 +64,7 @@ Unlike typical smart home dashboards, *SmartHome* focuses on *visual communicati
 
 /application        => All source code
 /app-resources      => Static assets and config
-/video              => Demo video of the app (MP4/GIF)
+/video              => [https://drive.google.com/file/d/1ZeNWBaPh3Ui5jMS1hL7IwoEkMe8i4svu/view?usp=sharing]
 /screenshots        => Key animation state screenshots
 
 
