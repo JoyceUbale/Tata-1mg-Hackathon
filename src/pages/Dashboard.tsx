@@ -21,7 +21,7 @@ import {
 } from 'lucide-react';
 
 const Dashboard = () => {
-  const { devices, toggleLight, toggleLock, setTemperature } = useSmartHome();
+  const { devices, toggleLight, toggleLock } = useSmartHome();
   const summaryRef = useRef<HTMLDivElement>(null);
   const statsRef = useRef<HTMLDivElement>(null);
 
@@ -131,7 +131,7 @@ const Dashboard = () => {
           <ThermostatDevice
             key={device.id}
             device={device}
-            onTemperatureChange={(temp) => setTemperature(device.id, temp)}
+            onTemperatureChange={(temp) => (device.id, temp)}
           />
         ))}
 
