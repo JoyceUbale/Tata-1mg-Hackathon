@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 3
+    },
+    "auditLog": "E:\\Kalvium\\Projects\\Tata-1mg-Hackathon\\logs\\debug\\.54ed1d343de8048133f8a104091b775880f6df8b-audit.json",
+    "files": [
+        {
+            "date": 1743840947089,
+            "name": "E:\\Kalvium\\Projects\\Tata-1mg-Hackathon\\logs\\debug\\2025-04-05.debug.log",
+            "hash": "0c949de0757095ab8c186ed2859da5960941ab596e2f47bc592e3f47ac56e635"
+        }
+    ],
+    "hashType": "sha256"
+}
